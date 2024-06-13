@@ -1,0 +1,67 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.flexbox {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 700px;
+    height: 468px;
+    background-image: url(../images/fondo-flex.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 2px solid white;
+    display: flex;
+    align-items: end;
+}
+
+.area {
+    width: 700px;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chiquitos {
+    align-self: center;
+    width: 85px;
+    height: 100px;
+    display: flex;
+}
+
+.amarillo {
+    align-self: self-start;
+    width: 120px;
+    height: 107px;
+    display: flex;
+}
+
+.negro {
+    align-self: self-end;
+    width: 115px;
+    height: 120px;
+    display: flex;
+}
+
+.blanco {
+    align-self: self-start;
+    width: 100px;
+    height: 95px;
+    display: flex;
+}
+
+.rojo {
+    align-self: center;
+    width: 120px;
+    height: 130px;
+    display: flex;
+}
